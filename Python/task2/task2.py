@@ -26,7 +26,7 @@ def game():
             placeholder += "_ "
             emptyPlaces = True
     if not emptyPlaces:
-        print("\033[32mВы победили! Поздравляем :Р")
+        print("\033[32mВы победили! Поздравляем :Р\033[0m")
         exit(0)
     print("\n\033[33mСлово: " + placeholder, end="\n\n\033[34m")
     for i in range(1040, 1072):
